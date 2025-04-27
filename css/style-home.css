@@ -9,16 +9,44 @@ body{
     margin-top: 1%;
 }
 
+.nav_bar a{
+    text-decoration: none;
+}
+
 main{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100vh;
-    padding: 20px 25%;
-    font-size: 30px;
-    flex-wrap: wrap;
+    padding: 10px 25%;
+    font-size: 25px;
+    flex-direction: column;
 }
 
 .bloco_1{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bloco_2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.bloco_2 a{
+    text-decoration: none;
+}
+
+.bloco_3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bloco_3 a{
+    text-decoration: none;
 }
