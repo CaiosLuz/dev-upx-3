@@ -17,8 +17,8 @@ main{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
     padding: 10px 25%;
+    height: 93vh;
     font-size: 25px;
     flex-direction: column;
 }
