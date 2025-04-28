@@ -1,6 +1,8 @@
 body{
   margin: 0;
   padding: 0;
+  background-color: #fdfdf1;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .nav_bar{
@@ -29,6 +31,10 @@ main{
   text-align: start;
 }
 
+.titulo img{
+  width: 40%;
+}
+
 .conteudo{
   display: flex;
   align-items:flex-start;
@@ -37,6 +43,25 @@ main{
 
 .cards{
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: space-around;
+  gap: 20px;
+}
+
+.energia_solar{
+  background-color:  rgb(231, 231, 231);
+  border-radius: 10%;
+  padding: 0px 24px 0px;
+}
+
+.energia_eolica{
+  background-color: rgb(231, 231, 231);
+  border-radius: 10%;
+  padding: 0px 24px 0px;
+}
+
+.biomassa{
+  background-color: rgb(231, 231, 231);
+  border-radius: 10%;
+  padding: 0px 24px 0px;
 }
