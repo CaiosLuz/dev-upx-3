@@ -19,6 +19,16 @@ body{
   font-size: 20px;
 }
 
+.nav_bar a:hover{
+  color: wheat;
+  animation: minhaAnimacao 0.3s ease forwards;
+  /*background-color: #175746;*/
+}
+header{
+  background-color: #2f9e6b;
+  padding: 25px 0;
+}
+
 main{
   display: flex;
   flex-direction: column;
@@ -54,18 +64,18 @@ main{
 
 .energia_solar{
   background-color:  rgb(231, 231, 231);
-  border-radius: 10%;
+  border-radius: 25px;
   padding: 0px 24px 0px;
 }
 
 .energia_eolica{
   background-color: rgb(231, 231, 231);
-  border-radius: 10%;
+  border-radius: 25px;
   padding: 0px 24px 0px;
 }
 
 .biomassa{
   background-color: rgb(231, 231, 231);
-  border-radius: 10%;
+  border-radius: 25px;
   padding: 0px 24px 0px;
 }
