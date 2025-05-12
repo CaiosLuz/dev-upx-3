@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./css/style-formulario.css">
+</head>
+<body>
+    <main>
+        <h1>
+            Estime sua energia
+        </h1>
+        <p>
+            Preencha o formulário abaixo com os seus aparelhos elétricos.
+        </p>
+        <form>
+            <div class="componentes">
+                <label>Microondas
+                    <input type="number" placeholder="0">
+                </label>
+                <label>Chuveiro
+                    <input type="number" placeholder="0">
+                </label>
+                <label>Televisores
+                    <input type="number" placeholder="0">
+                </label>
+                <label>Geladeira
+                    <input type="number" placeholder="0">
+                </label>
+                <label>Máquina de lavar
+                    <input type="number" placeholder="0">
+                </label>
+                <label>Ventiladores
+                    <input type="number" placeholder="0">
+                </label>
+            </div>
+            <div class="dados-complementares">
+                <label>Estado</label>
+                <select>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+                <label>Consumo mensal médio de energia (kWh)</label>
+                <input type="text">
+                <label>Quantidade de moradores da casa</label>
+                <input type="number">
+            </div>
+            <div class="calcular">
+                <button>Calcular minha economia</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

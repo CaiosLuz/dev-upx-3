@@ -1,16 +1,26 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #fdfdf1
+}
+
+a {
+    text-decoration: none;
+    color: #175746;
 }
 
 .nav_bar{
     display: flex;
     justify-content: space-around;
+    color: black;
     margin-top: 1%;
 }
 
 .nav_bar a{
     text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .corpo{
@@ -31,4 +41,10 @@ body{
 .imagem_simulador{
     display: flex;
     align-items: center;
+}
+
+.conteudo{
+    background-color: lightgray;
+    border-radius: 10%;
+    padding: 2%;
 }

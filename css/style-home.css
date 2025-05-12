@@ -1,18 +1,41 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #fdfdf1
+}
+
+a {
+    text-decoration: none;
+    color: #175746;
+}
+
+i {
+    font-size: 50px;
+    color: #175746;
 }
 
 .nav_bar{
     display: flex;
     justify-content: space-around;
-    margin-top: 1%;
+    color: white;
 }
 
 .nav_bar a{
     text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
 }
-
+.nav_bar a:hover{
+    color: wheat;
+    animation: minhaAnimacao 0.3s ease forwards;
+    /*background-color: #175746;*/
+}
+header{
+    background-color: #2f9e6b;
+    padding: 25px 0;
+}
 main{
     display: flex;
     justify-content: space-around;
@@ -21,6 +44,8 @@ main{
     height: 93vh;
     font-size: 25px;
     flex-direction: column;
+    gap: 25px;
+    color: black;
 }
 
 .bloco_1{
@@ -29,11 +54,26 @@ main{
     align-items: center;
 }
 
+.bloco_1 a{
+    background-color: #2f9e6b;
+    color: white;
+    padding: 2%;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2%;
+}
+
+.bloco_1 a {
+    text-decoration: none;
+}
+
 .bloco_2{
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    gap: 25px;
 }
 
 .bloco_2 a{
@@ -49,4 +89,31 @@ main{
 
 .bloco_3 a{
     text-decoration: none;
+}
+
+.cadastro_login{
+    background-color: lightgray;
+    border-radius: 30px;
+    padding: 2%;
+}
+
+.simulador_economia{
+    background-color: lightgray;
+    border-radius: 30px;
+    padding: 2%;
+}
+
+.informativos{
+    background-color: lightgray;
+    border-radius: 30px;
+    padding: 1%;
+}
+
+@keyframes minhaAnimacao {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }

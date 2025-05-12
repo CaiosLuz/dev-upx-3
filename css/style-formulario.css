@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdf1
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25%;
+    font-size: 25px;
+    flex-direction: column;
+    gap: 25px;
+    color: black;
+}
+
+form{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.componentes label,
+.dados-complementares label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
